@@ -6,6 +6,9 @@ button{
 
 
 }
+#pealkiri{font-family: 'ZCOOL KuaiLe', cursive;
+animation: epic 4s; 
+animation-iteration-count: infinite;}
 .nupud{
     display: flex;
 
@@ -48,4 +51,13 @@ button{
     width: 15rem;
 }
 
+@keyframes epic{
+    0%{color:black;}
+    20%{color: green;}
+    40%{color: red;}
+    60%{color: blue;}
+    80%{color: lightblue;}
+    100%{color: black;}
+
+}
 
